@@ -166,11 +166,11 @@ namespace Probleme___setul_1
         {
             ///Rezolvati ecuatia de gradul 1 cu o necunoscuta: ax+b = 0, unde a si b sunt date de intrare. 
             Console.WriteLine("Pentru formula 'ax+b = 0' alege a ");
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Pentru formula 'ax+b = 0' alege b ");
-            int b = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"{a} x + {b} = 0");
-            int x = 0 - b / a;
+            double x =  - b / a;
             Console.WriteLine($"x = {x}");
             Main();
         }
